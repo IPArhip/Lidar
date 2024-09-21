@@ -16,7 +16,7 @@ data = pd.read_csv('/content/drive/MyDrive/examp10.txt', sep=";", header=None)
 coord = data[0].str.split(",", expand=True)
 lidar = data[1].str.split(",", expand=True)
 
-
+###123
 
 plt.figure(figsize=(10, 5))
 X = pd.to_numeric(coord[0])
